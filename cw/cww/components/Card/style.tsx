@@ -2,53 +2,53 @@ import { StyleSheet , Dimensions } from 'react-native';
 
 const { height, width } = Dimensions.get('window');
 export const styles=  StyleSheet.create({
-  Mcontainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  modalBackground: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  modalContainer: {
-    width: 300,
-    backgroundColor: 'white',
-    borderRadius: 10,
-    padding: 30,
-    alignItems: 'center',
-  },
-  starContainer: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    marginBottom: 10,
-  },
-  Mtitle: {
-    fontSize: 30,
-    fontWeight: 'bold',
-    marginBottom: 20,
-  },
-  mText: {
-    fontSize: 14,
-    textAlign: 'center',
-    marginBottom: 20,
-  },
-  loveButton: {
-    backgroundColor: '#5DB075',
-    paddingVertical: 10,
-    paddingHorizontal: 95,
-    borderRadius: 60,
-    marginBottom: 10,
-  },
-  MbuttonText: {
-    color: 'white',
-    fontWeight: 'bold',
-  },
-  linkText: {
-    color: '#5DB075',
-    textDecorationLine: 'none',
-  },
+        Mcontainer: {
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        },
+        modalBackground: {
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        },
+        modalContainer: {
+          width: 300,
+          backgroundColor: 'white',
+          borderRadius: 10,
+          padding: 30,
+          alignItems: 'center',
+        },
+        starContainer: {
+          flexDirection: 'row',
+          justifyContent: 'center',
+          marginBottom: 10,
+        },
+        Mtitle: {
+          fontSize: 30,
+          fontWeight: 'bold',
+          marginBottom: 20,
+        },
+        mText: {
+          fontSize: 14,
+          textAlign: 'center',
+          marginBottom: 20,
+        },
+        loveButton: {
+          backgroundColor: '#5DB075',
+          paddingVertical: 10,
+          paddingHorizontal: 95,
+          borderRadius: 60,
+          marginBottom: 10,
+        },
+        MbuttonText: {
+          color: 'white',
+          fontWeight: 'bold',
+        },
+        linkText: {
+          color: '#5DB075',
+          textDecorationLine: 'none',
+        },
         collection: {
           width: 120,
           marginRight: 10,
