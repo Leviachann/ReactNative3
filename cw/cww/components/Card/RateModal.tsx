@@ -7,7 +7,7 @@ const RateModal = () => {
 
   return (
     <View style={styles.Mcontainer}>
-      <Button title="Open Modal" onPress={() => setModalVisible(true)} />
+      <TouchableOpacity onPress={() => setModalVisible(true)}><Text>Open Modal</Text></TouchableOpacity>
 
       <Modal
         transparent={true}

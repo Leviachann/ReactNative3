@@ -2,6 +2,71 @@ import { StyleSheet , Dimensions } from 'react-native';
 
 const { height, width } = Dimensions.get('window');
 export const styles=  StyleSheet.create({
+        overlay: {
+          flex: 1,
+          backgroundColor: 'rgba(0,0,0,0.5)',
+          justifyContent: 'flex-end',
+        },
+        handle: {
+          width: 50,
+          height: 5,
+          backgroundColor: '#ccc',
+          borderRadius: 2.5,
+          alignSelf: 'center',
+          marginVertical: 10,
+        },
+        drawer: {
+          height: 300, 
+          backgroundColor: '#fff',
+          borderTopLeftRadius: 16,
+          borderTopRightRadius: 16,
+          padding: 20,
+          shadowColor: '#000',
+          shadowOffset: { width: 0, height: 2 },
+          shadowOpacity: 0.25,
+          shadowRadius: 4,
+          elevation: 5,
+        },
+        drawerContent: {
+          alignItems: 'center',
+        },
+        drawerTitle: {
+          marginTop: 20,
+          fontSize: 18,
+          fontWeight: 'bold',
+          marginBottom: 10,
+          textAlign: 'center',
+        },
+        drawerSubtitle: {
+          fontSize: 14,
+          color: '#888',
+          marginBottom: 20,
+          textAlign: 'center',
+        },
+        primaryButton: {
+          backgroundColor: '#5DB075',
+          paddingVertical: 12,
+          paddingHorizontal: 140,
+          borderRadius: 25,
+          alignItems: 'center',
+          marginBottom: 10,
+        },
+        primaryButtonText: {
+          color: '#fff',
+          fontSize: 16,
+          fontWeight: '600',
+        },
+        secondaryButton: {
+          backgroundColor: 'transparent',
+          paddingVertical: 10,
+          width: '80%',
+          alignItems: 'center',
+        },
+        secondaryButtonText: {
+          color: '#5DB075',
+          fontSize: 16,
+          fontWeight: '600',
+        },
         Mcontainer: {
           flex: 1,
           justifyContent: 'center',
